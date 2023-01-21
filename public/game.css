@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    height: 100%;
+}
+
+body{
+    height: 95%;
+    margin: 10px;
+}
+
+.player-bar{
+    width: 10px;
+    height: 250px;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.left-player{
+    float: left;
+    top: 0;
+}
+
+.right-player{
+    float: right;
+    top: 0;
+}
